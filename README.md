@@ -15,6 +15,19 @@
 目前网站上的资源都采用 json 文件数据进行配置。
 
 
+## 构建和运行 Docker 镜像
+ 1. 构建镜像：
+    在终端中导航到包含 Dockerfile 的目录，然后运行以下命令来构建镜像：
+    `docker build -t castalia-app`
+
+ 2. 运行容器：
+    启动容器并映射端口：
+    `docker run -d -p 3000:3000 castalia-app`
+
+ 3. 访问应用程序：
+    打开浏览器并访问 http://localhost:3000 来查看应用程序。
+
+
 ### Pull Request 方式
 
 **做任何修改前，请先 fork 一份代码到自己的账号下，然后对自己的仓库文件进行修改，修改后提交 pull request**。
