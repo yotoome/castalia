@@ -25,7 +25,7 @@
     `docker run -d -p 3000:3000 castalia-app`
 
  3. 访问应用程序：
-    打开浏览器并访问 http://localhost:3000 来查看应用程序。
+    打开浏览器并访问 `http://localhost:3000` 来查看应用程序。
 
 
 ### Pull Request 方式
